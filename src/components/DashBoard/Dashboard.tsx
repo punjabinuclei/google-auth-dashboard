@@ -1,5 +1,6 @@
 import React from 'react'
 import Sidebar from './components/Sidebar/Sidebar'
+import Header from './components/Header/Header'
 
 const Dashboard = () => {
     return (
@@ -7,9 +8,9 @@ const Dashboard = () => {
             <div className="w-full flex">
                 <div className="sidebar p-[2.5rem]">
                     <Sidebar />
-                    </div>
+                </div>
                 <div className="mainArea flex grow content flex-col">
-                    Navbar
+                    <Header />
                     <div className="h-full bg-Dull-White">
                         info
                     </div>
