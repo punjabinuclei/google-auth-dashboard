@@ -1,6 +1,8 @@
 import React from 'react'
 import Sidebar from './components/Sidebar/Sidebar'
 import Header from './components/Header/Header'
+import CardsSmall from './components/CardsSmall/CardsSmall'
+import LineChart from './components/LineChart/LineChart'
 
 const Dashboard = () => {
     return (
@@ -12,7 +14,8 @@ const Dashboard = () => {
                 <div className="mainArea flex grow content flex-col">
                     <Header />
                     <div className="h-full bg-Dull-White">
-                        info
+                        <CardsSmall />
+                        <LineChart />
                     </div>
                 </div>
             </div>

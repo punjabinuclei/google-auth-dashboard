@@ -1,13 +1,14 @@
 import React from 'react'
 import SignUpPage from '@/components/SignUpPage/SignUpPage'
+import Providers from '@/components/SignUpPage/Providers'
 
 const index = () => {
   return (
     <div>
-      <h1>Add lato text</h1>
-      <SignUpPage />
+        <SignUpPage />
     </div>
+
   )
 }
 
-export default index
+export default index  

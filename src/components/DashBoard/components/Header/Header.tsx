@@ -1,9 +1,13 @@
 import React from 'react'
+
 import SearchIcon from "../../../../Assets/Icons/Searchicon.svg"
 import Image from 'next/image'
 import HeaderStyle from './Header.module.css'
 import BellIcon from '../../../../Assets/Icons/BellIcon.svg'
 import UserImg from '../../../../Assets/Icons/image1.png'
+import Logout from './components/Logout'
+
+
 
 const Header = () => {
     return (
@@ -25,6 +29,9 @@ const Header = () => {
                 </div>
                 <div className='ml-[1.88rem]'>
                     <Image className='rounded-full' src={UserImg} alt='UserImg' />
+                </div>
+                <div>
+                    <Logout />
                 </div>
             </div>
         </div>
