@@ -3,6 +3,8 @@ import Sidebar from './components/Sidebar/Sidebar'
 import Header from './components/Header/Header'
 import CardsSmall from './components/CardsSmall/CardsSmall'
 import LineChart from './components/LineChart/LineChart'
+import PieChart from './components/PieChart/PieChart'
+import Todo from './components/Todo/Todo'
 
 const Dashboard = () => {
     return (
@@ -16,6 +18,14 @@ const Dashboard = () => {
                     <div className="h-full bg-Dull-White">
                         <CardsSmall />
                         <LineChart />
+                        <div className='flex justify-center'>
+                            <div>
+                                <PieChart />
+                            </div>
+                            <div className='ml-[2.5rem]'>
+                                <Todo />
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
