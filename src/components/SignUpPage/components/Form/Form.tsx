@@ -32,7 +32,7 @@ const Form = () => {
         return (
             <div className='flex justify-center items-center'>
                 <div>
-                    <h1 className='text-[3rem]'>Welcome<span className='font-bold'> {session.user.name}</span></h1>
+                    <h1 className='text-[3.2rem]'>Welcome<span className='font-bold'> {session.user.name}</span></h1>
                     <div className='flex justify-center mt-4'>
                         <div>
                             <button
